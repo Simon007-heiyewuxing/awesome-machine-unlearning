@@ -73,10 +73,6 @@ Please read and cite our paper:
 [![timeline](framework.png)](https://arxiv.org/abs/2209.02299)
 Frameworks provide standardized environments, benchmarks, and reproducible research pipelines for studying and evaluating machine unlearning. These works typically focus on methodology, reproducibility, and infrastructure, rather than proposing new unlearning algorithms.
 
-| **Paper Title** | **Year** | **Author** | **Venue** | **Model** | **Code** | **Type** |
-| --------------- | :----: | ---- | :----: | :----: | :----: | :----: |
-| [How to Make Reproducible Research in Machine Unlearning with ERASURE](https://www.ijcai.org/proceedings/2025/1255) | 2025 | D'Angelo et al. | _IJCAI_ | ERASURE | [[Code]](https://github.com/aiim-research/ERASURE) | Framework |
-----------
 
 ## Existing Surveys
 | **Paper Title** | **Venue** | **Year** | 
@@ -408,6 +404,8 @@ The approaches fallen into this category use data partition, data augmentation a
 
 ----------
 ## Benchmarks
+
+[How to Make Reproducible Research in Machine Unlearning with ERASURE]([https://www.ijcai.org/proceedings/2025/1255](https://github.com/aiim-research/ERASURE)) published at [IJCAI'25](https://www.ijcai.org/proceedings/2025/1255)
 
 [Unlearn PII - Benchmark designed to evaluate the effectiveness of PII unlearning methods, addressing limitations like evaluation implicit knowledge unlearning and assesing all tokens equally](https://github.com/pariidanDKE/Toward-Practical-PII-Unlearning) 
 
