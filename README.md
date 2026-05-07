@@ -103,6 +103,8 @@ Model-agnostic machine unlearning methodologies include unlearning processes or 
 
 | **Paper Title** | **Year** | **Author** | **Venue** | **Model** | **Code** | **Type** |
 | --------------- | :----: | ---- | :----: | :----: | :----: | :----: |
+| [Forgetting Similar Samples: Can Machine Unlearning Do it Better?](https://arxiv.org/abs/2601.06938) | 2026 | Xu et al. | _arXiv_ | - | - | Evaluation |
+| [Forgetting to Witness: Efficient Federated Unlearning and Its Visible Evaluation](https://arxiv.org/abs/2604.04800) | 2026 | Wang et al. | _arXiv_ | Skyeye | - | Federated Unlearning |
 | [Machine Unlearning of Personally Identifiable Information in Large Language Models](https://aclanthology.org/2025.nllp-1.6/) | 2025 | Parii et al. | _NLLP_ | PerMU<sub>tok</sub> | [Code](https://github.com/pariidanDKE/Toward-Practical-PII-Unlearning) | Knowledge Adaptation
 | [The forget-set identification problem](https://link.springer.com/article/10.1007/s10994-025-06897-9) | 2025 | D'Angelo et al. | _Machine Learning_ | - | - | Dataset Selection |
 | [ESC: Erasing Space Concept for Knowledge Deletion](https://arxiv.org/abs/2504.02199) | 2025 | Lee et al. | _CVPR_ | ESC | [[Code]](https://github.com/KU-VGI/ESC) | Knowledge Deletion |
@@ -112,7 +114,11 @@ Model-agnostic machine unlearning methodologies include unlearning processes or 
 | [FG-OrIU: Towards Better Forgetting via Feature-Gradient Orthogonality for Incremental Unlearning](https://arxiv.org/abs/2601.13578) | 2025 | Feng et al. | _ICCV_ | FG-OrIU | - | Incremental Unlearning |
 | [Train Once, Forget Precisely: Anchored Optimization for Efficient Post-Hoc Unlearning](https://arxiv.org/abs/2506.14515) | 2025 | Sanga et al. | _ICML_ | FAMR | - | Constrained Optimization |
 | [Towards Lifecycle Unlearning Commitment Management: Measuring Sample-level Unlearning Completeness](https://arxiv.org/abs/2506.06112) | 2025 | Wang et al. | _USENIX Security_ | IAM | [[Code]](https://github.com/Happy2Git/Unlearning_Inference_IAM) | Evaluation |
+| [PRUNE: A Patching Based Repair Framework for Certifiable Unlearning of Neural Networks](https://arxiv.org/abs/2505.06520) | 2025 | Li et al. | _arXiv_ | PRUNE | - | Certifiable Unlearning |
+| [Evaluating the Defense Potential of Machine Unlearning against Membership Inference Attacks](https://arxiv.org/abs/2508.16150) | 2025 | Tsiolakis et al. | _arXiv_ | - | - | Evaluation |
 | [Potion: Towards Poison Unlearning](https://arxiv.org/abs/2406.09173) | 2024 | Schoepf et al. | _DMLR_ | POTION | [[Code]](https://github.com/if-loops/towards_poison_unlearning) | Poison Unlearning |
+| [Towards Privacy-Guaranteed Label Unlearning in Vertical Federated Learning: Few-Shot Forgetting without Disclosure](https://arxiv.org/abs/2410.10922) | 2024 | Gu et al. | _arXiv_ | - | - | Federated Unlearning |
+| [Releasing Malevolence from Benevolence: The Menace of Benign Data on Machine Unlearning](https://arxiv.org/abs/2407.05112) | 2024 | Ma et al. | _arXiv_ | - | - | Unlearning Usability Attack |
 | [Communication Efficient and Provable Federated Unlearning](https://dl.acm.org/doi/10.14778/3641204.3641220) | 2024 | Tao et al. | _VLDB_ | FATS | [[Code]](https://github.com/Happy2Git/FATS_supplement) | Federated Unlearning |
 | [Sequential Informed Federated Unlearning: Efficient and Provable Client Unlearning in Federated Optimization](https://proceedings.mlr.press/v238/fraboni24a.html) | 2024 | Fraboni et al. | _AISTATS_ | SIFU | [[Code]](https://github.com/Accenture/Labs-Federated-Learning/tree/SIFU) | Differential Privacy, Federated Unlearning |
 | [Fast-FedUL: A Training-Free Federated Unlearning with Provable Skew Resilience](https://link.springer.com/chapter/10.1007/978-3-031-70362-1_4) | 2024 | Huynh et al. | _ECML-PKDD_ | Fast-FedUL | [[Code]](https://github.com/thanhtrunghuynh93/fastFedUL) | Federated Unlearning |
@@ -220,6 +226,8 @@ The model-intrinsic approaches include unlearning methods designed for a specifi
 | <mark>[Beyond Superficial Forgetting: Thorough Unlearning Through Knowledge Density Estimation and Block Re-Insertion](https://doi.org/10.48550/arXiv.2511.11667)</mark> | 2026 | Guo et al. | _AAAI_ | LLM | [Code](https://github.com/llmgfffffff/Beyond-Superficial-Forgetting-KUnBR) | Knowledge Adaptation |
 | [Roots Beneath the Cut: Uncovering the Risk of Concept Revival in Pruning-Based Unlearning for Diffusion Models](https://arxiv.org/abs/2603.06640) | 2026 | Zhang et al. | _CVPR_ | - | - | Pruning-based Unlearning |
 | [Machine Unlearning using Forgetting Neural Networks](https://arxiv.org/abs/2410.22374) | 2026 | Hatua et al. | _ICAART_ | FNN | - | Architecture-based |
+| [Secure Forgetting: A Framework for Privacy-Driven Unlearning in Large Language Model (LLM)-Based Agents](https://arxiv.org/abs/2604.00430) | 2026 | Ye et al. | _arXiv_ | - | - | LLM Agents |
+| [Beyond Forgetting: Machine Unlearning Elicits Controllable Side Behaviors and Capabilities](https://arxiv.org/abs/2601.21702) | 2026 | Dang et al. | _arXiv_ | - | - | LLM |
 | [SineProject: Machine Unlearning for Stable Vision Language Alignment](https://arxiv.org/abs/2511.18444) | 2025 | Garg et al. | _arXiv_ | MLLM | - | Multimodal Unlearning |
 | [Stable Forgetting: Bounded Parameter-Efficient Unlearning in LLMs](https://arxiv.org/abs/2509.24166) | 2025 | Garg et al. | _arXiv_ | LLM | - | Parameter-Efficient Unlearning |
 | [Alternate Preference Optimization for Unlearning Factual Knowledge in Large Language Models](https://aclanthology.org/2025.coling-main.252/) | 2025 | Mekala et al. | _COLING_ | AltPO | [[Code]](https://github.com/molereddy/Alternate-Preference-Optimization) | LLM |
@@ -229,8 +237,13 @@ The model-intrinsic approaches include unlearning methods designed for a specifi
 | [Do Not Mimic My Voice: Speaker Identity Unlearning for Zero-Shot Text-to-Speech](https://speechunlearn.github.io/) | 2025 | Kim et al. | _ICML_ | TTS | [[Code]](https://github.com/mokcho/spk_id_unlearn_icml2025) | Audio Generation |
 | [No Encore: Unlearning as Opt-out in Music Generation](https://arxiv.org/abs/2509.06277) | 2025 | Kim et al. | _NeurIPS-AI4Music_ | Music Gen. | - | Generative Models |
 | [Pre-Forgettable Models: Prompt Learning as a Native Mechanism for Unlearning](https://arxiv.org/abs/2509.15230) | 2025 | Hendrix et al. | _ACM-MM_ | PFM | [[Code]](https://github.com/perceivelab/PreForgettableModels) | Prompt Learning |
-| [Intrinsic Test of Unlearning Using Parametric Knowledge Traces](https://arxiv.org/abs/2406.11614) | 2025 | Hong et al. | _EMNLP_ | ConceptVectors | - | LLM, Evaluation |
+| [Intrinsic Test of Unlearning Using Parametric Knowledge Traces](https://arxiv.org/abs/2406.11614) | 2025 | Hong et al. | _EMNLP_ | ConceptVectors | [[Code]](https://github.com/yihuaihong/ConceptVectors) | LLM, Evaluation |
 | [Preserving Privacy Without Compromising Accuracy: Machine Unlearning for Handwritten Text Recognition](https://arxiv.org/abs/2504.08616) | 2025 | Kang et al. | _arXiv_ | WIC | - | Neural Pruning |
+| [Towards Benign Memory Forgetting for Selective Multimodal Large Language Model Unlearning](https://arxiv.org/abs/2511.20196) | 2025 | Zeng et al. | _arXiv_ | SMFA | - | Multimodal Unlearning |
+| [Improving Fisher Information Estimation and Efficiency for LoRA-based LLM Unlearning](https://arxiv.org/abs/2508.21300) | 2025 | Kim et al. | _COLM_ | VILA | - | LLM, Parameter-Efficient |
+| [When Forgetting Builds Reliability: LLM Unlearning for Reliable Hardware Code Generation](https://arxiv.org/abs/2512.05341) | 2025 | Liang et al. | _arXiv_ | - | - | LLM |
+| [Forgetting-MarI: LLM Unlearning via Marginal Information Regularization](https://arxiv.org/abs/2511.11914) | 2025 | Xu et al. | _arXiv_ | Forgetting-MarI | - | LLM |
+| [An Adversarial Perspective on Machine Unlearning for AI Safety](https://arxiv.org/abs/2409.18025) | 2024 | Łucki et al. | _TMLR_ | - | - | LLM, Adversarial |
 | [Machine Unlearning for Image-to-Image Generative Models](https://openreview.net/forum?id=9hjVoPWPnh) | 2024 | Li et al. | _ICLR_ | - | [[Code]](https://github.com/jpmorganchase/l2l-generator-unlearning) | Generative Models |
 | [Defensive Unlearning with Adversarial Training for Robust Concept Erasure in Diffusion Models](https://arxiv.org/abs/2405.15234) | 2024 | Zhang et al. | _arXiv_ | AdvUnlearn | [[Code]](https://github.com/OPTML-Group/AdvUnlearn) | Generative Models, Diffusion Models |
 | [Towards Efficient and Effective Unlearning of Large Language Models for Recommendation](https://arxiv.org/abs/2403.03536) | 2024 | Wang et al. | _arXiv_ | E2URec | [[Code]](https://github.com/justarter/E2URec)  | LLM |
