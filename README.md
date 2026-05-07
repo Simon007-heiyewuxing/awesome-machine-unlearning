@@ -108,6 +108,11 @@ Model-agnostic machine unlearning methodologies include unlearning processes or 
 | [ESC: Erasing Space Concept for Knowledge Deletion](https://arxiv.org/abs/2504.02199) | 2025 | Lee et al. | _CVPR_ | ESC | [[Code]](https://github.com/KU-VGI/ESC) | Knowledge Deletion |
 | [Decoupled Distillation to Erase: A General Unlearning Method for Any Class-centric Tasks](https://arxiv.org/abs/2503.23751) | 2025 | Zhou et al. | _CVPR_ | DELETE | [[Code]](https://github.com/shaaaaron/DELETE) | Remain-data Free |
 | [The Right to be Forgotten in Pruning: Unveil Machine Unlearning on Sparse Models](https://arxiv.org/abs/2507.18725) | 2025 | Xiao et al. | _NeurIPS-RegML_ | Un-pruning | - | Weight Pruning |
+| [LoTUS: Large-Scale Machine Unlearning with a Taste of Uncertainty](https://arxiv.org/abs/2503.18314) | 2025 | Spartalis et al. | _CVPR_ | LoTUS | [[Code]](https://github.com/cspartalis/LoTUS) | Uncertainty-based |
+| [FG-OrIU: Towards Better Forgetting via Feature-Gradient Orthogonality for Incremental Unlearning](https://arxiv.org/abs/2601.13578) | 2025 | Feng et al. | _ICCV_ | FG-OrIU | - | Incremental Unlearning |
+| [Train Once, Forget Precisely: Anchored Optimization for Efficient Post-Hoc Unlearning](https://arxiv.org/abs/2506.14515) | 2025 | Sanga et al. | _ICML_ | FAMR | - | Constrained Optimization |
+| [Towards Lifecycle Unlearning Commitment Management: Measuring Sample-level Unlearning Completeness](https://arxiv.org/abs/2506.06112) | 2025 | Wang et al. | _USENIX Security_ | IAM | [[Code]](https://github.com/Happy2Git/Unlearning_Inference_IAM) | Evaluation |
+| [Potion: Towards Poison Unlearning](https://arxiv.org/abs/2406.09173) | 2024 | Schoepf et al. | _DMLR_ | POTION | [[Code]](https://github.com/if-loops/towards_poison_unlearning) | Poison Unlearning |
 | [Communication Efficient and Provable Federated Unlearning](https://dl.acm.org/doi/10.14778/3641204.3641220) | 2024 | Tao et al. | _VLDB_ | FATS | [[Code]](https://github.com/Happy2Git/FATS_supplement) | Federated Unlearning |
 | [Sequential Informed Federated Unlearning: Efficient and Provable Client Unlearning in Federated Optimization](https://proceedings.mlr.press/v238/fraboni24a.html) | 2024 | Fraboni et al. | _AISTATS_ | SIFU | [[Code]](https://github.com/Accenture/Labs-Federated-Learning/tree/SIFU) | Differential Privacy, Federated Unlearning |
 | [Fast-FedUL: A Training-Free Federated Unlearning with Provable Skew Resilience](https://link.springer.com/chapter/10.1007/978-3-031-70362-1_4) | 2024 | Huynh et al. | _ECML-PKDD_ | Fast-FedUL | [[Code]](https://github.com/thanhtrunghuynh93/fastFedUL) | Federated Unlearning |
@@ -213,6 +218,8 @@ The model-intrinsic approaches include unlearning methods designed for a specifi
 | **Paper Title** | **Year** | **Author** | **Venue** | **Model** | **Code** | **Type** |
 | --------------- | :----: | ---- | :----: | :----: | :----: | :----: |
 | <mark>[Beyond Superficial Forgetting: Thorough Unlearning Through Knowledge Density Estimation and Block Re-Insertion](https://doi.org/10.48550/arXiv.2511.11667)</mark> | 2026 | Guo et al. | _AAAI_ | LLM | [Code](https://github.com/llmgfffffff/Beyond-Superficial-Forgetting-KUnBR) | Knowledge Adaptation |
+| [Roots Beneath the Cut: Uncovering the Risk of Concept Revival in Pruning-Based Unlearning for Diffusion Models](https://arxiv.org/abs/2603.06640) | 2026 | Zhang et al. | _CVPR_ | - | - | Pruning-based Unlearning |
+| [Machine Unlearning using Forgetting Neural Networks](https://arxiv.org/abs/2410.22374) | 2026 | Hatua et al. | _ICAART_ | FNN | - | Architecture-based |
 | [SineProject: Machine Unlearning for Stable Vision Language Alignment](https://arxiv.org/abs/2511.18444) | 2025 | Garg et al. | _arXiv_ | MLLM | - | Multimodal Unlearning |
 | [Stable Forgetting: Bounded Parameter-Efficient Unlearning in LLMs](https://arxiv.org/abs/2509.24166) | 2025 | Garg et al. | _arXiv_ | LLM | - | Parameter-Efficient Unlearning |
 | [Alternate Preference Optimization for Unlearning Factual Knowledge in Large Language Models](https://aclanthology.org/2025.coling-main.252/) | 2025 | Mekala et al. | _COLING_ | AltPO | [[Code]](https://github.com/molereddy/Alternate-Preference-Optimization) | LLM |
@@ -221,6 +228,9 @@ The model-intrinsic approaches include unlearning methods designed for a specifi
 | [Knowledge Graph Unlearning with Schema](https://aclanthology.org/2025.coling-main.238/) | 2025 | Xiao et al. | _COLING_ | KGE | [[Code]](https://github.com/NKUShaw/KGUnlearningBySchema) | Knowledge Graphs |
 | [Do Not Mimic My Voice: Speaker Identity Unlearning for Zero-Shot Text-to-Speech](https://speechunlearn.github.io/) | 2025 | Kim et al. | _ICML_ | TTS | [[Code]](https://github.com/mokcho/spk_id_unlearn_icml2025) | Audio Generation |
 | [No Encore: Unlearning as Opt-out in Music Generation](https://arxiv.org/abs/2509.06277) | 2025 | Kim et al. | _NeurIPS-AI4Music_ | Music Gen. | - | Generative Models |
+| [Pre-Forgettable Models: Prompt Learning as a Native Mechanism for Unlearning](https://arxiv.org/abs/2509.15230) | 2025 | Hendrix et al. | _ACM-MM_ | PFM | [[Code]](https://github.com/perceivelab/PreForgettableModels) | Prompt Learning |
+| [Intrinsic Test of Unlearning Using Parametric Knowledge Traces](https://arxiv.org/abs/2406.11614) | 2025 | Hong et al. | _EMNLP_ | ConceptVectors | - | LLM, Evaluation |
+| [Preserving Privacy Without Compromising Accuracy: Machine Unlearning for Handwritten Text Recognition](https://arxiv.org/abs/2504.08616) | 2025 | Kang et al. | _arXiv_ | WIC | - | Neural Pruning |
 | [Machine Unlearning for Image-to-Image Generative Models](https://openreview.net/forum?id=9hjVoPWPnh) | 2024 | Li et al. | _ICLR_ | - | [[Code]](https://github.com/jpmorganchase/l2l-generator-unlearning) | Generative Models |
 | [Defensive Unlearning with Adversarial Training for Robust Concept Erasure in Diffusion Models](https://arxiv.org/abs/2405.15234) | 2024 | Zhang et al. | _arXiv_ | AdvUnlearn | [[Code]](https://github.com/OPTML-Group/AdvUnlearn) | Generative Models, Diffusion Models |
 | [Towards Efficient and Effective Unlearning of Large Language Models for Recommendation](https://arxiv.org/abs/2403.03536) | 2024 | Wang et al. | _arXiv_ | E2URec | [[Code]](https://github.com/justarter/E2URec)  | LLM |
@@ -309,6 +319,7 @@ The approaches fallen into this category use data partition, data augmentation a
 
 | **Paper Title** | **Year** | **Author** | **Venue** | **Model** | **Code** | **Type** |
 | --------------- | :----: | ---- | :----: | :----: | :----: | :----: |
+| [MobText-SISA: Efficient Machine Unlearning for Mobility Logs with Spatio-Temporal and Natural-Language Data](https://arxiv.org/abs/2508.19554) | 2025 | Yonekura et al. | _SIGSPATIAL_ | MobText-SISA | - | Data Partitioning |
 | [Towards Machine Unlearning Benchmarks: Forgetting the Personal Identities in Facial Recognition Systems](https://arxiv.org/abs/2311.02240) | 2023 | Choi and Na | _arXiv_ | MUFAC, MUCAC dataset | [[Code]](https://github.com/ndb796/MachineUnlearning) | Introduce two benchmark datasets |
 | [SAFE: Machine Unlearning With Shard Graphs](https://openaccess.thecvf.com/content/ICCV2023/html/Dukler_SAFE_Machine_Unlearning_With_Shard_Graphs_ICCV_2023_paper.html) | 2023 |  Dukler et al. | _ICCV_ | SAFE | - | Data Partition, Shard Graph |
 | [Hidden Poison: Machine Unlearning Enables Camouflaged Poisoning Attacks](https://arxiv.org/abs/2212.10717) | 2022 | Di et al. | _NeurIPS-TSRML_ | - | [[Code]](https://github.com/Jimmy-di/camouflage-poisoning) | Data Poisoning |
@@ -406,6 +417,8 @@ The approaches fallen into this category use data partition, data augmentation a
 ## Benchmarks
 
 [How to Make Reproducible Research in Machine Unlearning with ERASURE]([https://www.ijcai.org/proceedings/2025/1255](https://github.com/aiim-research/ERASURE)) published at [IJCAI'25](https://www.ijcai.org/proceedings/2025/1255)
+
+[ERASURE: A Modular and Extensible Framework for Machine Unlearning](https://doi.org/10.1145/3746252.3761627) published at [CIKM'25](https://doi.org/10.1145/3746252.3761627)
 
 [Unlearn PII - Benchmark designed to evaluate the effectiveness of PII unlearning methods, addressing limitations like evaluation implicit knowledge unlearning and assesing all tokens equally](https://github.com/pariidanDKE/Toward-Practical-PII-Unlearning) 
 
