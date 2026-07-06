@@ -441,6 +441,8 @@ The approaches fallen into this category use data partition, data augmentation a
 
 [Unlearning Comparator - A visual analytics system for comparative evaluation of machine unlearning methods](https://github.com/gnueaj/Machine-Unlearning-Comparator) [[Paper]](https://arxiv.org/abs/2508.12730) [[Demo]](https://gnueaj.github.io/Machine-Unlearning-Comparator/)
 
+[UDS (Unlearning Depth Score) - A white-box metric that measures unlearning depth via two-stage activation patching on internal hidden states, evaluated on TOFU forget10](https://github.com/gnueaj/unlearning-depth-score) [[Paper]](https://arxiv.org/abs/2605.24614) [[Project Page]](https://gnueaj.github.io/unlearning-depth-score/)
+
 ----------
 **Disclaimer**
 
